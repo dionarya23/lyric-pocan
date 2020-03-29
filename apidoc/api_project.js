@@ -1,0 +1,16 @@
+define({
+  "name": "Lyric api",
+  "version": "0.1.0",
+  "description": "Lyric Api with 10000+ song",
+  "title": "Lyric Api",
+  "url": "https://lyric-pocan.herokuapp.com/api",
+  "sampleUrl": false,
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2020-03-29T04:33:54.218Z",
+    "url": "http://apidocjs.com",
+    "version": "0.20.1"
+  }
+});

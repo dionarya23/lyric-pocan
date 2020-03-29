@@ -2,6 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 require('dotenv').config()
 const PORT = process.env.PORT || 3000
+const path = require('path')
 
 //import routes
 const albumRoute = require('./routes/album')
@@ -15,5 +16,6 @@ app.use(bodyParser.json())
 app.use('/api/album', albumRoute)
 app.use('/api/lyric', lyricRoute)
 app.use('/api/artist', artistRoute)
+app.use('/apidocs', express.static(path.join(__dirname, 'apidoc')))
 
 app.listen(PORT, () => console.log("Something running on PORT 3000"))

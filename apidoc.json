@@ -1,0 +1,7 @@
+{
+    "name" : "Lyric api",
+    "version" : "0.1.0",
+    "description" : "Lyric Api with 10000+ song",
+    "title" : "Lyric Api",
+    "url": "https://lyric-pocan.herokuapp.com/api"
+}
